@@ -12,14 +12,22 @@ Activity - String with Values [LAYING, SITTING, STANDING, WALKING, WALKING_DOWNS
 
 Mean (_Mean) and Standard Deviations (_StDev) for the below Time Domain Variables
  tBodyAccMag
+
  tGravityAccMag
+
  tBodyAccJerkMag
+
  tBodyGyroMag
+
  tBodyGyroJerkMag
 
 Mean (_Mean) and Standard Deviations (_StDev) for the below Frequency Domain Variables
+
  fBodyAccMag
+
  fBodyBodyAccJerkMag
+
  fBodyBodyGyroMag_Mean
+
  fBodyBodyGyroJerkMag
  

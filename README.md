@@ -3,7 +3,8 @@
 
 This script reads in the UCI HAR Dataset to perform analytics regarding Wearable Computing. 
 
-The data required for this script can be found from - http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+The data required for this script can be found from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+An Explanation of the original data can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The output variables are:
 

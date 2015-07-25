@@ -28,11 +28,10 @@ trainDataCombined <- cbind(trainDataSubject,trainDataActNum,trainData)
 combinedData <- rbind(testDataCombined,trainDataCombined)
 combinedData <- join(ActivityCodes,combinedData)
 
-#
-
+#filter out on wanted columns
 combinedDataCleaned <- select(combinedData,matches("subjectid|mean|std|Activity$"))
-names(combinedDataCleaned)
 
+#ddply mean statistics across required columns, also, this creates more human readable column titles
 aTidyDataSet <- ddply(combinedDataCleaned,.(SubjectID,Activity),summarise,
                       tBodyAccMag_Mean=mean(tBodyAccMag.mean..),tBodyAccMag_StDev=mean(tBodyAccMag.std..),
                       tGravityAccMag_Mean=mean(tGravityAccMag.mean..),tGravityAccMag_StDev=mean(tGravityAccMag.std..),

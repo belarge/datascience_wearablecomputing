@@ -32,3 +32,4 @@ Mean (_Mean) and Standard Deviations (_StDev) for the below Frequency Domain Var
 
  fBodyBodyGyroJerkMag
  
+ The script combines together a number of data sources to create a data output structure that includes all the relevant information. The script then uses ddply to apply mean operations to the variables of interest. 
